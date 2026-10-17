@@ -26,6 +26,7 @@ export const projects: Project[] = [
       'Laravel Sanctum',
       'Tailwind CSS',
     ],
+    image: '/projects/task-manager.webp',
     repoUrl: 'https://github.com/Facenam3/auth-react-laravel',
     liveUrl: '',
     featured: false,

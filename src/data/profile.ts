@@ -21,7 +21,7 @@ export const socials: SocialLink[] = [
   { label: 'GitHub', href: 'https://github.com/Facenam3', icon: 'github' },
   {
     label: 'LinkedIn',
-    href: 'https://www.linkedin.com/in/your-username',
+    href: 'https://www.linkedin.com/in/dalibor-jovanov2k1',
     icon: 'linkedin',
   },
   { label: 'Email', href: 'mailto:dalibor.jovanov2k1@gmail.com', icon: 'email' },
