@@ -12,11 +12,7 @@ const facts = [
 export function About() {
   return (
     <Section id="about">
-      <SectionHeading
-        eyebrow="About"
-        title="A little about me"
-        description=""
-      />
+      <SectionHeading eyebrow="About" title="A little about me" />
 
       <div className="grid gap-10 lg:grid-cols-[1.4fr_1fr]">
         <div className="space-y-5">
