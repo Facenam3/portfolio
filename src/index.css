@@ -17,6 +17,7 @@
 
   --animate-float: float 9s ease-in-out infinite;
   --animate-fade-up: fade-up 0.7s ease-out both;
+  --animate-drift: drift 44s linear infinite;
 }
 
 @keyframes float {
@@ -37,6 +38,16 @@
   to {
     opacity: 1;
     transform: translateY(0);
+  }
+}
+
+/* Cloud drift: bottom-left towards top-right */
+@keyframes drift {
+  from {
+    transform: translate3d(-12vw, 22vh, 0) scale(0.92);
+  }
+  to {
+    transform: translate3d(112vw, -32vh, 0) scale(1.08);
   }
 }
 
