@@ -8,7 +8,8 @@ export const profile = {
     'I build clean, modern web applications with React, TypeScript, PHP and Laravel.',
   location: 'Your City, Country',
   email: 'you@example.com',
-  availability: 'Open to junior developer roles',
+  photo: 'public/me.jpg',
+  availability: 'Open to frontend, backend & full-stack roles',
   bio: [
     'TODO(dalibor): write a short paragraph about yourself and how you got into development.',
     'TODO(dalibor): a second paragraph about the kind of work you enjoy and what you are learning next.',
