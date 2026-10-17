@@ -10,7 +10,7 @@ type Cloud = {
 
 /**
  * Each "cloud" is a soft, puffy blob painted with stacked radial gradients
- * (white core fading into light purple) instead of a heavy `blur()` filter,
+ * (white core fading into light blue) instead of a heavy `blur()` filter,
  * which keeps the animation cheap enough to run on mobile.
  *
  * `top`/`left` set a scattered *resting* position, so when `prefers-reduced-motion`
@@ -29,8 +29,8 @@ const clouds: Cloud[] = [
 
 const cloudPaint = [
   'radial-gradient(circle at 32% 62%, rgba(255,255,255,0.85) 0%, rgba(255,255,255,0.15) 38%, transparent 62%)',
-  'radial-gradient(circle at 62% 46%, rgba(196,181,253,0.65) 0%, rgba(196,181,253,0.12) 40%, transparent 64%)',
-  'radial-gradient(circle at 82% 66%, rgba(139,92,246,0.45) 0%, rgba(139,92,246,0.08) 42%, transparent 66%)',
+  'radial-gradient(circle at 62% 46%, rgba(125,211,252,0.65) 0%, rgba(125,211,252,0.12) 40%, transparent 64%)',
+  'radial-gradient(circle at 82% 66%, rgba(14,165,233,0.45) 0%, rgba(14,165,233,0.08) 42%, transparent 66%)',
 ].join(', ')
 
 export function HeroBackground() {

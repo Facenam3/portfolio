@@ -70,7 +70,7 @@ export function Hero() {
             <div className="mt-8 flex flex-wrap items-center justify-center gap-3 lg:justify-start">
               <a
                 href="#projects"
-                className="inline-flex items-center gap-2 rounded-full bg-lav-strong px-6 py-3 text-sm font-semibold text-white shadow-lg shadow-lav-strong/25 transition hover:bg-lav hover:shadow-lav/30"
+                className="inline-flex items-center gap-2 rounded-full bg-lav-strong px-6 py-3 text-sm font-semibold text-ink shadow-lg shadow-lav-strong/25 transition hover:bg-lav hover:shadow-lav/30"
               >
                 View my work
                 <ArrowUpRightIcon className="h-4 w-4" />

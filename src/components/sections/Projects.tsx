@@ -5,9 +5,9 @@ import { ArrowUpRightIcon, GithubIcon } from '@/components/icons'
 
 const covers = [
   'from-lav-strong/40 via-lav/25 to-transparent',
-  'from-fuchsia-500/30 via-lav/20 to-transparent',
-  'from-indigo-500/30 via-lav/20 to-transparent',
-  'from-purple-500/30 via-lav/20 to-transparent',
+  'from-sky-500/30 via-lav/20 to-transparent',
+  'from-teal-500/30 via-lav/20 to-transparent',
+  'from-cyan-500/30 via-lav/20 to-transparent',
 ]
 
 export function Projects() {
@@ -59,7 +59,7 @@ export function Projects() {
                     aria-label={`${linkLabel} — ${project.title}`}
                     className="absolute inset-0 flex items-center justify-center bg-ink/70 opacity-0 backdrop-blur-sm transition duration-300 group-hover:opacity-100 focus-visible:opacity-100"
                   >
-                    <span className="inline-flex items-center gap-1.5 rounded-full bg-lav-strong px-4 py-2 text-sm font-semibold text-white shadow-lg shadow-lav-strong/30">
+                    <span className="inline-flex items-center gap-1.5 rounded-full bg-lav-strong px-4 py-2 text-sm font-semibold text-ink shadow-lg shadow-lav-strong/30">
                       {linkLabel}
                       <ArrowUpRightIcon className="h-4 w-4" />
                     </span>
