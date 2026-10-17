@@ -15,7 +15,7 @@ export function About() {
       <SectionHeading
         eyebrow="About"
         title="A little about me"
-        description="TODO(dalibor): you can delete this line once your bio below is written."
+        description=""
       />
 
       <div className="grid gap-10 lg:grid-cols-[1.4fr_1fr]">
