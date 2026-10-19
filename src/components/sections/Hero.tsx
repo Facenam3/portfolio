@@ -6,7 +6,7 @@ export function Hero() {
   return (
     <section
       id="home"
-      className="relative flex min-h-screen items-center overflow-hidden pt-28 pb-20"
+      className="relative isolate flex min-h-screen items-center overflow-hidden pt-28 pb-20"
     >
       <HeroBackground />
 
