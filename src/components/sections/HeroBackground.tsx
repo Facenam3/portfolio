@@ -19,18 +19,18 @@ type Cloud = {
  * partway through its path so they are spread out immediately on first paint.
  */
 const clouds: Cloud[] = [
-  { width: 240, height: 150, top: 68, left: -6, opacity: 0.18, duration: 52, delay: -6 },
-  { width: 170, height: 105, top: 40, left: 8, opacity: 0.12, duration: 44, delay: -20 },
-  { width: 320, height: 190, top: 82, left: 22, opacity: 0.14, duration: 60, delay: -34 },
-  { width: 190, height: 120, top: 18, left: 40, opacity: 0.1, duration: 48, delay: -12 },
-  { width: 260, height: 155, top: 58, left: 58, opacity: 0.13, duration: 56, delay: -42 },
-  { width: 210, height: 128, top: 32, left: 76, opacity: 0.16, duration: 50, delay: -26 },
+  { width: 240, height: 150, top: 68, left: -6, opacity: 0.5, duration: 52, delay: -6 },
+  { width: 170, height: 105, top: 40, left: 8, opacity: 0.34, duration: 44, delay: -20 },
+  { width: 320, height: 190, top: 82, left: 22, opacity: 0.42, duration: 60, delay: -34 },
+  { width: 190, height: 120, top: 18, left: 40, opacity: 0.3, duration: 48, delay: -12 },
+  { width: 260, height: 155, top: 58, left: 58, opacity: 0.38, duration: 56, delay: -42 },
+  { width: 210, height: 128, top: 32, left: 76, opacity: 0.46, duration: 50, delay: -26 },
 ]
 
 const cloudPaint = [
-  'radial-gradient(circle at 32% 62%, rgba(255,255,255,0.85) 0%, rgba(255,255,255,0.15) 38%, transparent 62%)',
-  'radial-gradient(circle at 62% 46%, rgba(125,211,252,0.65) 0%, rgba(125,211,252,0.12) 40%, transparent 64%)',
-  'radial-gradient(circle at 82% 66%, rgba(14,165,233,0.45) 0%, rgba(14,165,233,0.08) 42%, transparent 66%)',
+  'radial-gradient(circle at 32% 62%, rgba(255,255,255,0.9) 0%, rgba(255,255,255,0.28) 38%, transparent 62%)',
+  'radial-gradient(circle at 62% 46%, rgba(125,211,252,0.75) 0%, rgba(125,211,252,0.18) 40%, transparent 64%)',
+  'radial-gradient(circle at 82% 66%, rgba(14,165,233,0.55) 0%, rgba(14,165,233,0.12) 42%, transparent 66%)',
 ].join(', ')
 
 export function HeroBackground() {
