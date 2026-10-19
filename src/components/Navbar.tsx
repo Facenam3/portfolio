@@ -73,7 +73,7 @@ export function Navbar() {
           <div className="flex items-center gap-2">
             <a
               href="#contact"
-              className="hidden rounded-full bg-lav-strong px-4 py-2 text-sm font-semibold text-ink transition hover:bg-lav sm:inline-flex"
+              className="hidden rounded-full bg-lav-strong px-4 py-2 text-sm font-semibold text-white transition hover:bg-lav sm:inline-flex"
             >
               Let&apos;s talk
             </a>
