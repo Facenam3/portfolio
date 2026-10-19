@@ -4,16 +4,16 @@
   --font-sans: "Inter", ui-sans-serif, system-ui, -apple-system, "Segoe UI",
     Roboto, "Helvetica Neue", Arial, sans-serif;
 
-  /* Dark base with a cool blue undertone */
-  --color-ink: #060910;
-  --color-ink-soft: #0a1220;
-  --color-ink-raised: #0f1a2e;
-  --color-line: #1c2b47;
+  /* Dark base with a purple undertone */
+  --color-ink: #0d0b16;
+  --color-ink-soft: #151125;
+  --color-ink-raised: #211a36;
+  --color-line: #34294e;
 
-  /* Accent: ice / sky blue (token names kept as `lav` for now) */
-  --color-lav: #38bdf8;
-  --color-lav-soft: #7dd3fc;
-  --color-lav-strong: #0ea5e9;
+  /* Light purple accent */
+  --color-lav: #a78bfa;
+  --color-lav-soft: #c4b5fd;
+  --color-lav-strong: #8b5cf6;
 
   --animate-float: float 9s ease-in-out infinite;
   --animate-fade-up: fade-up 0.7s ease-out both;
@@ -66,7 +66,7 @@
 
   ::selection {
     background-color: var(--color-lav-strong);
-    color: var(--color-ink);
+    color: white;
   }
 
   :focus-visible {
